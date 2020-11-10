@@ -112,7 +112,7 @@ export default class Processor {
   @bind
   terminateWorker() {
     if (!this._worker) return;
-    this._worker.terminate();
+    // this._worker.terminate();
     this._worker = undefined;
   }
 
