@@ -28,7 +28,6 @@ export interface EncodeOptions {
   exact: number;
   image_hint: number;
   emulate_jpeg_size: number;
-  thread_level: number;
   low_memory: number;
   near_lossless: number;
   use_delta_palette: number;
@@ -64,7 +63,6 @@ export const defaultOptions: EncodeOptions = {
   exact: 0,
   image_hint: 0,
   emulate_jpeg_size: 0,
-  thread_level: 0,
   low_memory: 0,
   near_lossless: 100,
   use_delta_palette: 0,
