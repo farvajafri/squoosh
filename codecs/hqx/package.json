@@ -2,6 +2,6 @@
   "name": "hqx",
   "scripts": {
     "build:image": "docker build -t squoosh-hqx - < Dockerfile",
-    "build": "docker run --rm -v $(pwd):/src squoosh-hqx ./build.sh"
+    "build": "docker run -it --rm -v $(pwd):/src squoosh-hqx ./build.sh"
   }
 }
