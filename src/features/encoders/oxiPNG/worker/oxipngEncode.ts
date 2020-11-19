@@ -40,7 +40,7 @@ async function initMT() {
   const workers = Array.from({ length: num }, () => new Worker(workerURL));
 
   // Meanwhile, asynchronously compile, instantiate and initialise Wasm on our main thread.
-  await initOxiWasmMT(oxiWasmUrlMT);
+  await initOxiWasmMT(oxiWasmUrlMT, undefined as any);
 
   // Get module+memory from the Wasm instance.
   //
