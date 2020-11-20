@@ -2,8 +2,8 @@
   "extends": "./generic-tsconfig.json",
   "files": [],
   "references": [
-    { "path": "./worker-tsconfig.json" },
     { "path": "./client-tsconfig.json" },
+    { "path": "./worker-tsconfig.json" },
     { "path": "./static-build-tsconfig.json" }
   ]
 }
